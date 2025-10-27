@@ -66,3 +66,13 @@ nav h1 {
     transform: translateX(100%);
     flex-direction: column;
 }
+@media (max-width:750px) {
+        .PcMenu{
+display: none;
+        }
+        .hambarger{
+            display: flex;
+
+        }
+    
+}

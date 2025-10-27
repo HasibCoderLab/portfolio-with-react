@@ -7,7 +7,7 @@ nav {
     padding: 40px;
     position: fixed;
     top: 0;
-    background: #000;
+    
 }
 .active li{
     color: red;

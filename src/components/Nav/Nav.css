@@ -5,8 +5,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 40px;
+    position: fixed;
+    top: 0;
+    background: #000;
 }
-
+.active li{
+    color: red;
+}
 ul {
     display: flex;
     align-items: center;

@@ -9,8 +9,17 @@ nav {
     top: 0;
     
 }
+
+nav ul a{   
+    cursor: pointer;
+}
+nav ul a:hover{
+    color: rgba(107, 211, 211);
+    border-bottom: 2px solid  white;
+}
 .active li{
-    color: red;
+   color: rgba(107, 211, 211);
+    border-bottom: 2px solid white;
 }
 ul {
     display: flex;

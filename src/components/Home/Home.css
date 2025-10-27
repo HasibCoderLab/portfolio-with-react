@@ -2,5 +2,20 @@
     width: 100%;
     height: 100%;
     min-height: 100vh;
-   
+   display: flex;
+}
+.lefthome{
+    width: 50%;
+    height: 100vh;
+}
+.righthome{
+     width: 50%;
+    height: 100vh; 
+ display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.righthome img {
+    width: 60%;
+    filter: drop-shadow(2px 2px 20px rgb(116,201,225));
 }

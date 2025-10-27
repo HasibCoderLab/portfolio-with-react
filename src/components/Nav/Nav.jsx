@@ -30,6 +30,7 @@ const Nav = () => {
         <div className="hambarger" ref={menu}
     onClick={() => {
             mobile.current.classList.toggle("activemobile");
+            menu.current.classList.toggle("activeham");
           }}
         >
           <div className="ham"></div>

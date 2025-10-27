@@ -7,20 +7,23 @@ nav {
     padding: 40px;
     position: fixed;
     top: 0;
-    
+
 }
 
-nav ul a{   
+nav ul a {
     cursor: pointer;
 }
-nav ul a:hover{
+
+nav ul a:hover {
     color: rgba(107, 211, 211);
-    border-bottom: 2px solid  white;
-}
-.active li{
-   color: rgba(107, 211, 211);
     border-bottom: 2px solid white;
 }
+
+.active li {
+    color: rgba(107, 211, 211);
+    border-bottom: 2px solid white;
+}
+
 ul {
     display: flex;
     align-items: center;
@@ -40,7 +43,7 @@ nav h1 {
 
 }
 
-.hambarger{
+.hambarger {
     display: flex;
     align-items: center;
     align-items: center;
@@ -51,12 +54,13 @@ nav h1 {
 
 }
 
-.ham{
+.ham {
     width: 40px;
     height: 2px;
     background-color: aqua;
 }
-.mobileMenu{
+
+.mobileMenu {
     position: absolute;
     top: 80px;
     width: 100%;
@@ -66,13 +70,19 @@ nav h1 {
     transform: translateX(100%);
     flex-direction: column;
 }
-@media (max-width:750px) {
-        .PcMenu{
-display: none;
-        }
-        .hambarger{
-            display: flex;
+.activemobile{
+    transform: translateX(0);
 
-        }
-    
+}
+
+@media (max-width:750px) {
+    .PcMenu {
+        display: none;
+    }
+
+    .hambarger {
+        display: flex;
+
+    }
+
 }

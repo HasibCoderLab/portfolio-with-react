@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-scroll'
 import "./Nav.css"
 const Nav = () => {
+ let menu =  useRef();
+ let mobile =  useRef();
+ console.log(menu);
+ 
   return (
     <div>
       <nav>
@@ -23,13 +27,17 @@ const Nav = () => {
 </ul>
           {/* =========================  mobileMenu   ========================================= */}
         {/* Hambarger Menu */}
-        <div className="hambarger">
+        <div className="hambarger" ref={menu}
+    onClick={() => {
+            mobile.current.classList.toggle("activemobile");
+          }}
+        >
           <div className="ham"></div>
           <div className="ham"></div>
           <div className="ham"></div>
         </div>
-        <ul className='mobileMenu'>
-          <Link to="home" activeClass="active" spy={true} smooth={true} duration={500}>
+        <ul className='mobileMenu' ref={mobile}>
+          <Link to="home" activeClass="active" spy={true} smooth={true} duration={500} >
             <li>Home</li>
           </Link>
           <Link to="about" activeClass="active" spy={true} smooth={true} duration={500}>

@@ -20,9 +20,14 @@ const Nav = () => {
           <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500}>
             <li>Contact</li>
           </Link>
-
+</ul>
           {/* =========================  mobileMenu   ========================================= */}
-        </ul>
+        {/* Hambarger Menu */}
+        <div className="hambarger">
+          <div className="ham"></div>
+          <div className="ham"></div>
+          <div className="ham"></div>
+        </div>
         <ul className='mobileMenu'>
           <Link to="home" activeClass="active" spy={true} smooth={true} duration={500}>
             <li>Home</li>

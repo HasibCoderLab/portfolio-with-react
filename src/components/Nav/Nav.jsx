@@ -4,7 +4,7 @@ import "./Nav.css"
 const Nav = () => {
  let menu =  useRef();
  let mobile =  useRef();
- console.log(menu);
+ 
  
   return (
     <div>

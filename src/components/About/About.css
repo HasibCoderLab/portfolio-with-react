@@ -23,12 +23,13 @@
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #7ab7ea;
+    box-shadow: 2px  2px 20px #78c2ff;
 }
 
 .line{
 width: 2px;
 height: 120px;
-    background-color: #fff;
+    background-color: aliceblue;
 
 }

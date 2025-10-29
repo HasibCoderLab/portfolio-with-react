@@ -1,6 +1,34 @@
 #about{
  width: 100%;
     height: 100%;
-    min-height: 100vh;
+    display: flex;
     
+}
+.leftabout{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cirele-line{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cirele{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.line{
+width: 2px;
+height: 120px;
+    background-color: #fff;
+
 }

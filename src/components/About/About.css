@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
 
 .cirele-line{
@@ -32,4 +33,26 @@ width: 2px;
 height: 120px;
     background-color: aliceblue;
 
+}
+.aboutdetails{
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+.aboutdetails ul {
+    list-style: none;
+}
+.aboutdetails  h1{
+   
+    background: linear-gradient(to right, rgb(198, 42, 96),#fff);
+    background-clip: text;
+    color: transparent;
+
+}
+.aboutdetails ul li {
+    color: #fff;
+}
+.aboutdetails span {
+    color: #7ad7ea;
 }

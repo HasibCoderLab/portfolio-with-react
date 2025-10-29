@@ -8,8 +8,8 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .cirele-line{
@@ -23,8 +23,8 @@
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-color: #7ab7ea;
-    box-shadow: 2px  2px 20px #78c2ff;
+    background-color: #7ad7ea;
+    box-shadow: 2px  2px 20px #7ad7ea;
 }
 
 .line{

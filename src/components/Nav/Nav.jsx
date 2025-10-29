@@ -1,11 +1,17 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-scroll'
 import "./Nav.css"
+
 const Nav = () => {
- let menu =  useRef();
- let mobile =  useRef();
- 
- 
+  const menu = useRef();
+  const mobile = useRef();
+
+  // Function to close mobile menu after click
+  const closeMenu = () => {
+    mobile.current.classList.remove("activemobile");
+    menu.current.classList.remove("activeham");
+  };
+
   return (
     <div>
       <nav>
@@ -24,11 +30,13 @@ const Nav = () => {
           <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500}>
             <li>Contact</li>
           </Link>
-</ul>
-          {/* =========================  mobileMenu   ========================================= */}
-        {/* Hambarger Menu */}
-        <div className="hambarger" ref={menu}
-    onClick={() => {
+        </ul>
+
+        {/* Hamburger Menu */}
+        <div
+          className="hambarger"
+          ref={menu}
+          onClick={() => {
             mobile.current.classList.toggle("activemobile");
             menu.current.classList.toggle("activeham");
           }}
@@ -37,21 +45,21 @@ const Nav = () => {
           <div className="ham"></div>
           <div className="ham"></div>
         </div>
+
+        {/* Mobile Menu */}
         <ul className='mobileMenu' ref={mobile}>
-          <Link to="home" activeClass="active" spy={true} smooth={true} duration={500} >
+          <Link to="home" onClick={closeMenu} activeClass="active" spy={true} smooth={true} duration={500}>
             <li>Home</li>
           </Link>
-          <Link to="about" activeClass="active" spy={true} smooth={true} duration={500}>
+          <Link to="about" onClick={closeMenu} activeClass="active" spy={true} smooth={true} duration={500}>
             <li>About</li>
           </Link>
-          <Link to="project" activeClass="active" spy={true} smooth={true} duration={500}>
+          <Link to="project" onClick={closeMenu} activeClass="active" spy={true} smooth={true} duration={500}>
             <li>Projects</li>
           </Link>
-          <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500}>
+          <Link to="contact" onClick={closeMenu} activeClass="active" spy={true} smooth={true} duration={500}>
             <li>Contact</li>
           </Link>
-
-
         </ul>
       </nav>
     </div>

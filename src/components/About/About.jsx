@@ -20,13 +20,50 @@ const About = () => {
                 {/* ========================== aboutdetails ========================= */}
                 <div className="aboutdetails">
                     <div className="personalinfo">
-                        <h1>
+                        <h1> Personal Info </h1>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>
+                                    <span>Name </span>:  Hasib Hasan
+                                </li>
+                                <li>
+                                    <span>Age  </span>: 17
+                                </li>
+                                <li>
+                                    <span>Gender </span>: Male
+                                </li>
                             </ul>
-                        </h1>
+                        
+                    </div>
+                     <div className="Education">
+                        <h1> Education </h1>
+                        
+                            <ul>
+                                <li>
+                                    <span>Name </span>:  Hasib Hasan
+                                </li>
+                                <li>
+                                    <span>Age  </span>: 17
+                                </li>
+                                <li>
+                                    <span>Gender </span>: Male
+                                </li>
+                            </ul>
+                       
+                    </div>
+                     <div className="personalinfo">
+                
+                            <ul>
+                                <li>
+                                    <span>Name </span>:  Hasib Hasan
+                                </li>
+                                <li>
+                                    <span>Age  </span>: 17
+                                </li>
+                                <li>
+                                    <span>Gender </span>: Male
+                                </li>
+                            </ul>
+                    
                     </div>
                 </div>
             </div>

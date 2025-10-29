@@ -56,3 +56,13 @@ gap: 40px;
 .aboutdetails span {
     color: #7ad7ea;
 }
+
+.rightabout{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;  
+}

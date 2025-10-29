@@ -1,5 +1,6 @@
 import React from 'react'
 import "./About.css"
+import Card from '../Card/Card'
 const About = () => {
     return (
         <div id="about">
@@ -60,7 +61,7 @@ const About = () => {
                                 DSA (Practice)
                             </li>
                             <li>
-                               React.js Node.js
+                                React.js Node.js
                             </li>
                         </ul>
 
@@ -68,6 +69,9 @@ const About = () => {
                 </div>
             </div>
             <div className="rightabout">
+                <Card />
+                <Card />
+                <Card />
 
             </div>
         </div>

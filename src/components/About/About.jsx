@@ -21,49 +21,49 @@ const About = () => {
                 <div className="aboutdetails">
                     <div className="personalinfo">
                         <h1> Personal Info </h1>
-                            <ul>
-                                <li>
-                                    <span>Name </span>:  Hasib Hasan
-                                </li>
-                                <li>
-                                    <span>Age  </span>: 17
-                                </li>
-                                <li>
-                                    <span>Gender </span>: Male
-                                </li>
-                            </ul>
-                        
+                        <ul>
+                            <li>
+                                <span>Name </span>:  Hasib Hasan
+                            </li>
+                            <li>
+                                <span>Age  </span>: 17
+                            </li>
+                            <li>
+                                <span>Gender </span>: Male
+                            </li>
+                        </ul>
+
                     </div>
-                     <div className="Education">
+                    <div className="Education">
                         <h1> Education </h1>
-                        
-                            <ul>
-                                <li>
-                                    <span>Name </span>:  Hasib Hasan
-                                </li>
-                                <li>
-                                    <span>Age  </span>: 17
-                                </li>
-                                <li>
-                                    <span>Gender </span>: Male
-                                </li>
-                            </ul>
-                       
+
+                        <ul>
+                            <li>
+                                <span>Degree </span>: SSC : 2027
+                            </li>
+                            <li>
+                                <span>Branch  </span>: Science
+                            </li>
+                            <li>
+                                <span>Future Paln </span>:  Graduate in Computer Science
+                            </li>
+                        </ul>
+
                     </div>
-                     <div className="personalinfo">
-                
-                            <ul>
-                                <li>
-                                    <span>Name </span>:  Hasib Hasan
-                                </li>
-                                <li>
-                                    <span>Age  </span>: 17
-                                </li>
-                                <li>
-                                    <span>Gender </span>: Male
-                                </li>
-                            </ul>
-                    
+                    <div className="skills">
+                        <h1>Skills</h1>
+                        <ul>
+                            <li>
+                                Front-End Web Developer
+                            </li>
+                            <li>
+                                DSA (Practice)
+                            </li>
+                            <li>
+                               React.js Node.js
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </div>

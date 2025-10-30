@@ -44,13 +44,13 @@ const About = () => {
 
                         <ul>
                             <li>
-                                <span>Degree </span>: SSC : 2027
+                                <span>Degree </span>: SSC (2027)
                             </li>
                             <li>
                                 <span>Branch  </span>: Science
                             </li>
                             <li>
-                                <span>Future Paln </span>:  Graduate in Computer Science
+                                <li><span>Future Plan </span>: Graduate in Computer Science</li>
                             </li>
                         </ul>
 
@@ -58,27 +58,22 @@ const About = () => {
                     <div className="skills">
                         <h1>Skills</h1>
                         <ul>
-                            <li>
-                                Front-End Web Developer
-                            </li>
-                            <li>
-                                DSA (Practice)
-                            </li>
-                            <li>
-                                React.js Node.js
-                            </li>
+                            <li>Front-End Web Development</li>
+                            <li>Data Structures & Algorithms (Practice)</li>
+                            <li>React.js & Node.js</li>
+
                         </ul>
 
                     </div>
                 </div>
             </div>
             <div className="rightabout">
-                <Card  title = "Web Developer" image = {mern} />
-                <Card  title = "Learn React" image={java} />
-                <Card  title = "DSA (Practice)" image={dsa} />
+                <Card title="Web Developer" image={mern} />
+                <Card title="Learn React" image={java} />
+                <Card title="DSA (Practice)" image={dsa} />
 
 
-                
+
 
             </div>
         </div>

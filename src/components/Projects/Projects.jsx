@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./Projects.css"
 import up from "../../assets/up.png"
 import Card from '../Card/Card'

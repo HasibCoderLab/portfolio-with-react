@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Projects.css"
-import va from "../../assets/va.png"
+import up from "../../assets/up.png"
 import Card from '../Card/Card'
 const Projects = () => {
   return (
@@ -9,15 +9,13 @@ const Projects = () => {
       <h1>1.5 Years Coding Experienced</h1>
       <div className="slider">
         {/* Card */}
-        <Card title="Vartual Experienced"  image={va}/>
-        <Card title="Vartual" image={va} />
-        <Card title="Vartual" image={va} />
-        <Card title="Vartual"  image={va}/>
-        <Card title="Vartual"  image={va}/>
-        <Card title="Vartual"  image={va}/>
-
-
-
+        <Card title="Clone CodeChef Upgrade paln"  image={up}/>
+        <Card title="Clone CodeChef Upgrade paln"  image={up}/>
+        <Card title="Clone CodeChef Upgrade paln"  image={up}/>
+        <Card title="Clone CodeChef Upgrade paln"  image={up}/>
+        <Card title="Clone CodeChef Upgrade paln"  image={up}/>
+        <Card title="Clone CodeChef Upgrade paln"  image={up}/>
+        <Card title="Clone CodeChef Upgrade paln"  image={up}/>
 
 
       </div>

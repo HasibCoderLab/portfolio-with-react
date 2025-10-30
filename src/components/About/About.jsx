@@ -1,6 +1,10 @@
 import React from 'react'
 import "./About.css"
 import Card from '../Card/Card'
+import mern from "../../assets/mern.png"
+import java from "../../assets/java.png"
+import dsa from "../../assets/dsa.png"
+
 const About = () => {
     return (
         <div id="about">
@@ -69,9 +73,12 @@ const About = () => {
                 </div>
             </div>
             <div className="rightabout">
-                <Card />
-                <Card />
-                <Card />
+                <Card  title = "Web Developer" image = {mern} />
+                <Card  title = "Learn React" image={java} />
+                <Card  title = "DSA (Practice)" image={dsa} />
+
+
+                
 
             </div>
         </div>

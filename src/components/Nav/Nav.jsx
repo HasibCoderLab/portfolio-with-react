@@ -24,7 +24,7 @@ const Nav = () => {
           <Link to="about" activeClass="active" spy={true} smooth={true} duration={500}>
             <li>About</li>
           </Link>
-          <Link to="project" activeClass="active" spy={true} smooth={true} duration={500}>
+          <Link to="projects" activeClass="active" spy={true} smooth={true} duration={500}>
             <li>Projects</li>
           </Link>
           <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500}>
@@ -54,7 +54,7 @@ const Nav = () => {
           <Link to="about" onClick={closeMenu} activeClass="active" spy={true} smooth={true} duration={500}>
             <li>About</li>
           </Link>
-          <Link to="project" onClick={closeMenu} activeClass="active" spy={true} smooth={true} duration={500}>
+          <Link to="projects" onClick={closeMenu} activeClass="active" spy={true} smooth={true} duration={500}>
             <li>Projects</li>
           </Link>
           <Link to="contact" onClick={closeMenu} activeClass="active" spy={true} smooth={true} duration={500}>
